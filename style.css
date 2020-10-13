@@ -127,6 +127,65 @@ main .down {
   margin-right: 35px;
 }
 
-.content {
+.photo {
+  margin-top: 55px;
+}
+.photo-menu {
+  justify-content: center;
   border-top: 1px solid #dbdbdb;
+  max-width: 1140px;
+  display: flex;
+}
+.photo-menu_stack {
+  padding-left: 30px;
+  display: flex;
+}
+.photo-menu_stack-left {
+  padding-right: 10px;
+  vertical-align: baseline;
+}
+.photo-menu_stack p {
+  margin: 0;
+}
+.photo-menu_stack p:active {
+  border-top: 1px solid #000000;
+}
+.photo-menu_stack p a {
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+.photo-menu_stacks {
+  padding-left: 50px;
+  display: flex;
+}
+.photo-menu_stacks-right {
+  padding-right: 10px;
+}
+.photo-menu_stacks p {
+  margin: 0;
+}
+.photo-menu_stacks p a {
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+.photo-menu_stacks p:active {
+  border-top: 1px solid #000000;
+}
+.photo .container {
+  padding-top: 20px;
+}
+.photo .container .row {
+  margin-bottom: 15px;
+  justify-content: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.photo .container .row .photo-content {
+  padding-right: 1px;
+}
+.photo .container .row .photo-content_img {
+  max-width: 297px;
+  height: 297px;
 }

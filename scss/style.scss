@@ -42,7 +42,6 @@ p {
 
 main {
     background-color: #fafafa;
-
     .logo-profile {
         max-width: 100%;
         max-height: 100%;
@@ -125,12 +124,67 @@ main {
     margin-right: 35px;
 }
 
-.content {
-    border-top: 1px solid #dbdbdb;
-    &-block {
-        &_left {
+.photo {
+    margin-top: 55px;
+    &-menu {
+        justify-content: center;
+        border-top: 1px solid #dbdbdb;
+        max-width: 1140px;
+        display: flex;
+        &_stack {
+            padding-left: 30px;
+            display: flex;
+            &-left {
+                padding-right: 10px;
+                vertical-align: baseline;
+            }
+            p {
+                &:active {
+                    border-top: 1px solid #000000;
+                }
+                margin: 0;
+                a {
+                    color: black;
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+            }
         }
-        &_right {
+        &_stacks {
+            padding-left: 50px;
+            display: flex;
+            &-right {
+                padding-right: 10px;
+            }
+            p {
+                margin: 0;
+                a {
+                    color: black;
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+                &:active {
+                    border-top: 1px solid #000000;
+                }
+            }
+        }
+    }
+    .container {
+        padding-top: 20px;
+
+        .row {
+            margin-bottom: 15px;
+            justify-content: center;
+            padding-left: 80px;
+            padding-right: 80px;
+            .photo-content {
+                padding-right: 1px;
+
+                &_img {
+                    max-width: 297px;
+                    height: 297px;
+                }
+            }
         }
     }
 }
