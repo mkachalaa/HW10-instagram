@@ -186,6 +186,5 @@ main .down {
   padding-right: 1px;
 }
 .photo .container .row .photo-content_img {
-  max-width: 297px;
-  height: 297px;
+  max-width: 100%;
 }
