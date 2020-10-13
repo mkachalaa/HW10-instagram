@@ -1,7 +1,48 @@
-.header {
-    margin-top: 20px;
-}
-* {
+body {
     margin: 0;
     padding: 0;
+}
+
+nav {
+    height: 54px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.logotype {
+    padding-top: 12px;
+}
+
+.nav-top {
+    height: 54px;
+    align-items: center;
+}
+
+.container-icon {
+    &-pad {
+        padding-right: 15px;
+    }
+}
+
+.form-search {
+    input {
+        background: #fafafa;
+        border: 1px solid #dbdbdb;
+        box-sizing: border-box;
+        border-radius: 3px;
+        outline: none;
+        background-image: url(/img/search.svg);
+        background-repeat: no-repeat;
+        background-position: 25% 50%;
+        padding-right: 5px;
+    }
+}
+
+main {
+    background-color: #fafafa;
+
+    .logo-profile {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 50%;
+    }
 }
