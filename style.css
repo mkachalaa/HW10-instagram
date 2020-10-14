@@ -32,7 +32,7 @@ p {
   box-sizing: border-box;
   border-radius: 3px;
   outline: none;
-  background-image: url(/img/search.svg);
+  background-image: url(./img/search.svg);
   background-repeat: no-repeat;
   background-position: 25% 50%;
   padding-right: 5px;
@@ -52,7 +52,7 @@ main .header-block-content__title {
 }
 main .click {
   padding: 5px 10px 5px 10px;
-  margin-top: -7px;
+  margin-top: -5px;
   font-weight: 650;
   font-size: 13px;
 }
