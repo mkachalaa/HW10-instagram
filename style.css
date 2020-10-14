@@ -186,5 +186,42 @@ main .down {
   padding-right: 1px;
 }
 .photo .container .row .photo-content_img {
-  max-width: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .form-search {
+    display: none;
+  }
+
+  main .logo-profile {
+    margin-left: 175px;
+  }
+
+  .stories .row {
+    justify-content: center;
+    margin: 0;
+  }
+}
+@media (max-width: 500px) {
+  main .logo-profile {
+    max-width: 50%;
+    margin-left: 108px;
+  }
+
+  .container-icon-pad {
+    padding-right: 5px;
+  }
+
+  .header-block .content {
+    padding-left: 50px;
+  }
+
+  .stories .row {
+    justify-content: flex-start;
+  }
+
+  .photo .container .row .photo-content_img {
+    padding-bottom: 15px;
+  }
 }
