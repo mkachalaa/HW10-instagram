@@ -202,8 +202,17 @@ main .down {
     justify-content: center;
     margin: 0;
   }
+
+  .photo .container .row {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .photo .container .row .photo-content_img {
+    padding-bottom: 15px;
+  }
 }
-@media (max-width: 500px) {
+@media (max-width: 540px) {
   main .logo-profile {
     max-width: 50%;
     margin-left: 108px;
