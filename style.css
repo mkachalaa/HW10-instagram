@@ -245,6 +245,7 @@ main .down {
 
   .content .content-title {
     display: flow-root;
+    padding-left: 61px;
   }
   .content .content-follow .content-follow_subtitle {
     padding-right: 6px;
